@@ -1,0 +1,111 @@
+:root {
+  --background: white;
+  --background-alt: #F4F4F4;
+  --text-primary: #333333;
+  --text-secondary: #777777;
+  --text-secondary-light: #AAAAAA;
+  --accent: #71ADD8;/*#5A94CA;*//*#B1D2F7; *//* TODO: consider making a bit darker for readability */
+  --accent-1: #AED3EE;/*#D1E7FF;*/
+  --accent-2: #DDECF8;/*#F4F8FD;*/
+  --skill-3: #DDDDDD;
+  --home-bkg-overlay: rgba(255, 255, 255, 0.4);
+  --shadow-color: rgba(136, 136, 136, 0.25);
+  --transition-dur: 0.4s;
+  --top-nav-height: 80px;
+}
+[data-theme='dark'] {
+  --background: #333333;
+  --background-alt: #444444;
+  --text-primary: white;
+  --text-secondary: #BBBBBB;
+  --accent: #4C87B1;/*#5C7795;*/
+  --accent-1: #396585;/*#43576D;*/
+  --accent-2: #26445A;/*#334456;*/
+  --skill-3: #666666;
+  --home-bkg-overlay: rgba(0, 0, 0, 0.4);
+  --shadow-color: rgba(100, 100, 100, 0.8);
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: var(--text-primary);
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.35rem;
+}
+
+h4, h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+code { /* TODO: remove if unused */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.quote {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.theme-btn {
+  position: fixed !important;
+  right: 14px;
+  bottom: 14px;
+  border-radius: 50% !important;
+  padding: 14px !important;
+  min-width: 0 !important;
+  z-index: 100;
+}
+
+.nav-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: var(--transition-dur);
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: var(--text-secondary-light);
+}
+
+@media (max-width: 1199px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 899px) {
+  html {
+    font-size: 14.5px;
+  }
+}
+
+@media (max-width: 599px) {
+  html {
+    font-size: 14px;
+  }
+}

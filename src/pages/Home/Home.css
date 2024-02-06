@@ -1,0 +1,178 @@
+.Home {
+  padding: 0;
+  margin: 0 15%;
+  background-color: var(--background);
+  text-align: center;
+}
+
+.Home-nav {
+  padding: 20px 0 40px;
+}
+
+.Home-nav-title {
+  padding-bottom: 10px;
+}
+
+.Home-nav-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6%;
+}
+
+.Home-nav-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-nav-links > * {
+  margin: 0 4%;
+  font-size: 1.3rem;
+}
+
+.Home-nav-accent {
+  height: 0.5px;
+  width: 8%;
+  background-color: var(--text-secondary);
+}
+
+.Home-container {
+  text-align: left;
+  max-width: 700px;
+  overflow-y: hidden;
+}
+
+.Home-accent-line {
+  height: 0.3rem;
+  width: 11rem;
+  background-color: var(--accent-1);
+  margin: 1rem 0 1.5rem;
+}
+
+.Home-bkg {
+  height: 580px;
+  background-color: var(--home-bkg-overlay);
+}
+
+.Home-bkg-overlay {
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--background);
+}
+
+.Home-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65vw;
+  max-width: 1000px;
+}
+
+.Home-center > * {
+  padding: 0; /* 30px */
+}
+
+.Home-headshot {
+  width: 18rem;
+}
+
+.Home-center-text { /* TODO: remove this if using the old style */
+  padding: 0 30px;
+}
+
+.Home-center-text > * {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.Home-welcome {
+  font-size: 2.2rem;
+}
+
+.Home-intro {
+  font-size: 1.8rem;
+  color: var(--text-secondary);
+  padding-bottom: 1.4rem;
+}
+
+@media (max-width: 1199px) {
+  .Home-center {
+    width: 68vw;
+  }
+}
+
+@media (max-width: 899px) {
+  .Home-nav {
+    height: var(--top-nav-height);
+  }
+
+  .Home-nav > * {
+    display: none;
+  }
+
+  .Home-bkg {
+    height: 420px;
+  }
+
+  .Home-nav {
+    padding: 10px 0 20px;
+  }
+
+  .Home-headshot {
+    width: 14rem;
+  }
+
+  .Home-center {
+    width: 74vw;
+  }
+
+  .Home-center-text {
+    padding: 0 24px;
+  }
+
+  .Home-welcome {
+    font-size: 2rem;
+  }
+
+  .Home-intro {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .Home-bkg {
+    height: 160vw;
+    max-height: 600px;
+  }
+
+  .Home-headshot {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .Home-center {
+    width: 76vw;
+    max-width: 300px;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .Home-center-text {
+    padding: 0 24px;
+  }
+
+  .Home-welcome {
+    font-size: 2rem;
+  }
+
+  .Home-intro {
+    font-size: 1.4rem;
+  }
+}

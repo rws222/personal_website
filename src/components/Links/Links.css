@@ -1,0 +1,19 @@
+.Links-icons {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.Links-icons > * {
+  color: var(--accent);
+  margin: auto 0;
+  transition: var(--transition-dur);
+}
+
+.Links-icons > *:hover {
+  color: var(--accent-1);
+}
+
+.Links-icon-subject {
+  color: var(--background);
+}

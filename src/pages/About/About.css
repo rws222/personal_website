@@ -1,0 +1,21 @@
+#About {
+  background-color: var(--accent-2);
+}
+
+.About-description {
+  width: 60%;
+  max-width: 1000px;
+  margin: 0 0 20px;
+}
+
+@media (max-width: 899px) {
+  .About-description {
+    width: 80%;
+  }
+}
+
+@media (max-width: 599px) {
+  .About-description {
+    width: 90%;
+  }
+}

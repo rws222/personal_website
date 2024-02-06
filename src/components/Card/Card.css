@@ -1,0 +1,145 @@
+.Card {
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 6px;
+  box-shadow: -2px 4px 12px var(--shadow-color);
+  background-color: var(--background);
+  display: flex;
+  align-items: left;
+  height: 260px; 
+  width: 70%;
+  max-width: 1000px;
+  transition-duration: var(--transition-dur);
+}
+
+.Card:hover {
+  transform: translate(0, -2px);
+  box-shadow: -3px 6px 16px var(--shadow-color);
+  cursor: pointer;
+}
+
+.Card-img-wrapper {
+  height: 220px;
+  max-width: 220px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card-img {
+  max-height: 220px;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.Card-content {
+  text-align: left;
+  padding: 0 40px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Card-content-main > * {
+  margin: 0;
+  padding: 0;
+}
+
+.Card-content-main > h4 {
+  padding-bottom: 10px;
+}
+
+.Card-description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Adjust the number of lines to display */
+  line-height: 1.5em;
+  max-height: 4.5em; /* (line-height * number of lines) */
+  margin: 0;
+  position: relative;
+}
+
+.Card-description::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-left: 40px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white 80%); /* Fade-out effect */
+}
+
+.Card-read-more {
+  margin: 0;
+  padding: 6px 0;
+  color: var(--accent);
+  width: fit-content;
+}
+
+.Card-read-more:hover {
+  color: var(--accent-1);
+  transition: var(--transition-dur);
+}
+
+@media (max-width: 1199px) {
+  .Card {
+    width: 80%;
+    height: 240px;
+  }
+
+  .Card-img-wrapper {
+    height: 180px;
+    max-width: 180px;
+  }
+
+  .Card-img {
+    max-height: 180px;
+  }
+}
+
+@media (max-width: 899px) {
+  .Card {
+    width: 100%;
+    height: 200px;
+  }
+
+  .Card-img-wrapper {
+    height: 120px;
+    max-width: 120px;
+  }
+
+  .Card-img {
+    max-height: 120px;
+  }
+
+  .Card-read-more {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
+  .Card {
+    min-height: 0;
+    margin-bottom: 10px;
+    height: 120px;
+  }
+
+  .Card-content {
+    padding: 0 10px;
+  }
+
+  .Card-img-wrapper {
+    height: 80px;
+    max-width: 80px;
+  }
+
+  .Card-img {
+    max-height: 80px;
+  }
+
+  .Card-description {
+    display: none;
+  }
+}

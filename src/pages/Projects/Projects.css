@@ -1,0 +1,13 @@
+#Projects {
+  background-color: var(--background);
+}
+
+.Projects-modal-img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.Projects-modal-img-wrapper {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,62 @@
+.coursework {
+  width: 70%;
+  max-width: 1000px;
+  margin: 20px 0;
+}
+
+.coursework-break {
+  height: 2px;
+  width: 100%;
+  background-color: var(--background-alt);
+}
+
+.tab-panel {
+  background-color: var(--background);
+  color: var(--text-primary);
+  padding: 10px 30px;
+}
+
+.tab-panel > * {
+  display: flex;
+}
+
+.class-list-container {
+  display: flex;
+  width: 100%;
+}
+
+.class-list-column {
+  flex: 1;
+  padding: 0 14px;
+  list-style: none;
+}
+
+.class-list-column li {
+  margin-left: 0px;
+  margin-bottom: 10px; 
+  text-align: left; 
+}
+
+.class-list-column li::before {
+  /* content: "•"; */
+  margin-right: 5px;
+  display: inline-block; 
+}
+
+/* TODO: decide if I should keep this or if it would be too much work to have it work well at all screen widths */
+/* .coursework-panel-wrapper {
+  min-height: 360px;
+  background-color: var(--background);
+} */
+
+@media (max-width: 1199px) {
+  .coursework {
+    width: 80%;
+  }
+}
+
+@media (max-width: 899px) {
+  .coursework {
+    width: 100%;
+  }
+}

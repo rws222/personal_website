@@ -1,0 +1,15 @@
+{
+  "short_name": "Ryan Schmid",
+  "name": "Ryan Schmid",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "210x210"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

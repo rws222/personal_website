@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: var(--background);
+  transition: var(--transition-dur);
+  display: flex;
+  justify-content: center;
+}
+
+.App-container {
+  width: 100%;
+  max-width: 1920px;
+}
