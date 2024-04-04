@@ -4,9 +4,6 @@ import Links from '../../components/Links/Links';
 import '../../index.css';
 import { scrollToSection } from '../../App.js'
 
-// TODO: remove unused background pics
-// const bkg_pic_light = require("./home-bkg-light.png");
-// const bkg_pic_dark = require("./home-bkg-dark.png");
 const bkg_pic_lehigh = require("../../images/home-bkg-lehigh.jpg");
 const my_headshot = require("../../images/home-my-headshot.jpg");
 
@@ -22,8 +19,6 @@ function Home(props) {
             <p className='nav-link' onClick={() => scrollToSection('Experience')}>EXPERIENCE</p>
             <p className='nav-link' onClick={() => scrollToSection('Education')}>EDUCATION</p>
             <p className='nav-link' onClick={() => scrollToSection('Projects')}>PROJECTS</p>
-            {/* TODO: decide about contact section */}
-            {/* <p className='nav-link' onClick={() => scrollToSection('Contact')}>CONTACT</p> */}
           </div>
           <div className='Home-nav-accent' />
         </div>

@@ -14,6 +14,8 @@ import TopNavBar from './components/TopNavBar/TopNavBar';
 import { ModalProvider } from './ModalContext';
 import Modal from './components/Modal/Modal.js';
 
+import "@fontsource/nunito";
+
 export function scrollToSection(sectionId) {
   const section = document.getElementById(sectionId);
   if (section) {

@@ -72,8 +72,6 @@ const TopNavBar = () => {
           <p className='nav-link' onClick={() => scrollToSection('Experience')}>EXPERIENCE</p>
           <p className='nav-link' onClick={() => scrollToSection('Education')}>EDUCATION</p>
           <p className='nav-link' onClick={() => scrollToSection('Projects')}>PROJECTS</p>
-          {/* TODO: decide about contact section */}
-          {/* <p className='nav-link' onClick={() => scrollToSection('Contact')}>CONTACT</p> */}
           {isLg ? <div/> : <Links />}
         </div>
         )}
@@ -97,10 +95,6 @@ const TopNavBar = () => {
           <ListItem button onClick={() => {scrollToSection('Projects'); toggleDrawer();}}>
             <ListItemText primary="PROJECTS" />
           </ListItem>
-          {/* TODO: decide about contact section */}
-          {/* <ListItem button onClick={() => {scrollToSection('Contact'); toggleDrawer();}}>
-            <ListItemText primary="CONTACT" />
-          </ListItem> */}
         </List>
       </Drawer>
     </div>

@@ -58,11 +58,16 @@
 .Modal-btns {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   margin-top: 40px;
 }
 
 .Modal-left-btn {
   margin-right: 20px !important;
+}
+
+.Modal-right-btn {
+  margin-top: 6px !important;
 }
 
 @media (max-width: 1199px) {

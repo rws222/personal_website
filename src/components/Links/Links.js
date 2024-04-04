@@ -1,7 +1,5 @@
 import './Links.css';
 
-// TODO: add resume
-
 function Links(props) {
 
   const resumeFilePath = require('../../attachments/Resume.pdf');

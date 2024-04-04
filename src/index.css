@@ -4,9 +4,9 @@
   --text-primary: #333333;
   --text-secondary: #777777;
   --text-secondary-light: #AAAAAA;
-  --accent: #71ADD8;/*#5A94CA;*//*#B1D2F7; *//* TODO: consider making a bit darker for readability */
-  --accent-1: #AED3EE;/*#D1E7FF;*/
-  --accent-2: #DDECF8;/*#F4F8FD;*/
+  --accent: #71ADD8;
+  --accent-1: #AED3EE;
+  --accent-2: #DDECF8;
   --skill-3: #DDDDDD;
   --home-bkg-overlay: rgba(255, 255, 255, 0.4);
   --shadow-color: rgba(136, 136, 136, 0.25);
@@ -18,9 +18,9 @@
   --background-alt: #444444;
   --text-primary: white;
   --text-secondary: #BBBBBB;
-  --accent: #4C87B1;/*#5C7795;*/
-  --accent-1: #396585;/*#43576D;*/
-  --accent-2: #26445A;/*#334456;*/
+  --accent: #4C87B1;
+  --accent-1: #396585;
+  --accent-2: #26445A;
   --skill-3: #666666;
   --home-bkg-overlay: rgba(0, 0, 0, 0.4);
   --shadow-color: rgba(100, 100, 100, 0.8);
@@ -41,8 +41,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  font-weight: 200;
-  letter-spacing: 1.5px;
+  font-weight: 400;
+  letter-spacing: 2.8px;
 }
 
 h2 {
@@ -61,14 +61,14 @@ h6 {
   font-size: 1.1rem;
 }
 
-code { /* TODO: remove if unused */
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .quote {
   padding-left: 20px !important;
   padding-right: 20px !important;
+  color: var(--text-primary);
+}
+
+.quote > i > b {
+  color: var(--accent)
 }
 
 .theme-btn {

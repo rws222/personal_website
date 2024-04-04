@@ -45,8 +45,6 @@ function Projects(props) {
       <p className="Education-description">At Lehigh, I was a student in the University's <span className='Education-IBE-highlight'>Integrated Business and Engineering (IBE) Honors Program</span>, a highly selective and rigoruos curriculum that awards each student an AACSB-accredited business degree in their major of choice (e.g. Finance). </p>
       <div className='Education-buttons'>
         <Button href='https://ibe.lehigh.edu' target="_blank">IBE homepage</Button>
-        {/* TODO: Delete button?, adjust buttons wrapper if needed */}
-        {/* <Button>View Coursework</Button> */}
       </div>
       <h3>Coursework</h3>
       <p className='Education-coursework-subtitle'>(Hover over course names for more detail.)</p>

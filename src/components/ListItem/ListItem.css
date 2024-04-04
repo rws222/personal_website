@@ -13,7 +13,7 @@
   color: var(--accent);
   margin: 0;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .ListItem-text-wrap {

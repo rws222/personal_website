@@ -10,7 +10,7 @@
 }
 
 .Home-nav-title {
-  padding-bottom: 10px;
+  padding: 8px 0 18px;
 }
 
 .Home-nav-list {
@@ -75,14 +75,14 @@
 }
 
 .Home-center > * {
-  padding: 0; /* 30px */
+  padding: 0;
 }
 
 .Home-headshot {
   width: 18rem;
 }
 
-.Home-center-text { /* TODO: remove this if using the old style */
+.Home-center-text {
   padding: 0 30px;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .Home-intro {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: var(--text-secondary);
   padding-bottom: 1.4rem;
 }

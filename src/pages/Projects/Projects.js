@@ -92,7 +92,7 @@ function Projects(props) {
           My content generation script was written in Python. It allowed for a few variables and parameters to be set by the user to produce the desired result. To allow for some choice in the type of content generated, the user would enter the name of any subreddit community. The script would get the most popular posts of the day from that subreddit and then generate similar posts. I then had it use a free commercial image API to find a picture related to the newly generated text for each post. To complete each post, I had it generate a username of the author, a timestamp, and a few other attributes required by the Truman Project.
         </p>
         <p>
-          The result was very useful in generating realistic content for a social media platform, eliminating the need to write each post manually from scratch. Professor DiFranzo was very happy with my work. 
+          The result was very useful in generating realistic content for a social media platform, eliminating the need to write each post manually from scratch.
         </p>
         <Button href='https://github.com/Social-Design-Lab/truman_content_generation' target="_blank">Project Code</Button>
       </Card>
@@ -138,20 +138,23 @@ function Projects(props) {
         alt='Stock chart'
         title='Data Science for Finance Final Project'
         subtitle='March 2022 - May 2022'
-        description={`In my last semester of undergraduate study, I took a course called "Data 
-          Science for Finance," which applies data science concepts in analyzing financial data. 
-          The course's final project was open-ended. My group and I decided to create a website 
-          that would determine the user's optimal investment portfolio from a list of S&P 500 
-          stocks, popular ETFs, and a risk-free asset (10-year T-bonds) by having them complete 
-          a risk aversion assessment. The assessment results in a numeric answer which is then 
-          scaled to a reasonable risk aversion variable. We then use a quadratic utility function 
-          along with the assessment-determined risk aversion variable to calculate and plot the 
-          optimal makeup of this user's investment portfolio.`} 
+        description={`In my last semester of undergraduate study, I took a course called 
+          "Data Science for Finance," which applied data science concepts in analyzing 
+          financial data. The course's final project was open-ended. My group and I decided 
+          to create a website that would determine the user's optimal investment portfolio 
+          from a list of S&P 500 stocks, popular ETFs, and a risk-free asset (10-year 
+            T-bonds) by having them complete a risk aversion assessment. The assessment 
+            resulted in a numeric answer which was scaled to a reasonable risk aversion 
+            variable. We then used a quadratic utility function along with the 
+            assessment-determined risk aversion variable to calculate and plot the optimal 
+            makeup of this user's investment portfolio. Our group was the first to make 
+            an online dashboard as our final deliverable in the three years of the course 
+            being offered.`} 
         button1text='Class website'
         button1link='https://ledatascifi.github.io/ledatascifi-2024/content/about/hall_of_awesomeness.html'
       >
         <p>
-          In my last semester of undergraduate study, I took a course called "Data Science for Finance," which applies data science concepts in analyzing financial data. The course's final project was open-ended. My group and I decided to create a website that would determine the user's optimal investment portfolio from a list of S&P 500 stocks, popular ETFs, and a risk-free asset (10-year T-bonds) by having them complete a risk aversion assessment. The assessment results in a numeric answer which is then scaled to a reasonable risk aversion variable. We then use a quadratic utility function along with the assessment-determined risk aversion variable to calculate and plot the optimal makeup of this user's investment portfolio. Our group was the first to make an online dashboard as our final deliverable in the three years of the course being offered.
+          In my last semester of undergraduate study, I took a course called "Data Science for Finance," which applied data science concepts in analyzing financial data. The course's final project was open-ended. My group and I decided to create a website that would determine the user's optimal investment portfolio from a list of S&P 500 stocks, popular ETFs, and a risk-free asset (10-year T-bonds) by having them complete a risk aversion assessment. The assessment resulted in a numeric answer which was scaled to a reasonable risk aversion variable. We then used a quadratic utility function along with the assessment-determined risk aversion variable to calculate and plot the optimal makeup of this user's investment portfolio. Our group was the first to make an online dashboard as our final deliverable in the three years of the course being offered.
         </p>
         <p>
           The original website was a Flask project that was hosted on Heroku. After the free tier of Heroku was eliminated, our Professor, Dr. Don Bowen, created a new version on Streamlit which uses our original code on a new interface. He also added the ability to specify the maximum leverage the user is willing to take on as well as the option to customize the securities in the portfolio. View the live project and our group's original code below.
@@ -179,10 +182,10 @@ function Projects(props) {
           In 2021, I completed my IBE Capstone project, which involved working with a local community center's new digital makerspace to help bring it business. The first semester of our work focused heavily on research and conducting interviews with members of the community and professionals in the VR space. Our ideas around a business model and target audience for the space pivoted multiple times throughout the semester before we settled on developing a virtual reality learning curriculum for special needs individuals. 
         </p>
         <p>
-          We expanded on this idea in our second semester of the project. Local professionals with special needs teaching experience assisted us in figuring out the logistics of hosting such a program, including teaching methods, transportation, and safety. We established a relationship with an organization that develops VR lessons for special needs individuals. For example, some of their lessons involve virtually guiding the user through grocery shopping, crossing the street, and joining a conversation. We established a business model and plan to implement our curriculum that included our market research, finances, safety, partnerships, and overall viability all backed by our interviews with technology and education professionals. Finally, we presented our plan to the community center's board of directors, who showed great enthusiasm for our project. 
+          We expanded on this idea in our second semester of the project. Local professionals with special needs teaching experience assisted us in figuring out the logistics of hosting such a program, including teaching methods, transportation, and safety. We established a relationship with an organization that develops VR lessons for special needs individuals. For example, some of their lessons involve virtually guiding the user through grocery shopping, crossing the street, and joining a conversation. We designed a business model and plan a to implement our curriculum that included our market research, finances, safety, partnerships, and overall viability all backed by our interviews with technology and education professionals. Finally, we presented our plan to the community center's board of directors, who showed great enthusiasm for our project. 
         </p>
         <p>
-          This project was immensely rewarding in both personally and educationally, given our target audience and the insight our work on this project offered into what it takes to conduct proper research, make a thorough and realistic business plan, form professional relationships, and deliver a final product. 
+          This project was immensely rewarding both personally and educationally, given our target audience and the experience it offered into conducting proper research, making a thorough and realistic business plan, forming professional relationships, and delivering a final product. 
         </p>
       </Card>
       <Card 

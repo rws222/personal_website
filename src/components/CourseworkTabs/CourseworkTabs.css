@@ -38,16 +38,9 @@
 }
 
 .class-list-column li::before {
-  /* content: "•"; */
   margin-right: 5px;
   display: inline-block; 
 }
-
-/* TODO: decide if I should keep this or if it would be too much work to have it work well at all screen widths */
-/* .coursework-panel-wrapper {
-  min-height: 360px;
-  background-color: var(--background);
-} */
 
 @media (max-width: 1199px) {
   .coursework {

@@ -16,7 +16,7 @@
 }
 
 .TopNavBar.visible {
-  height: var(--top-nav-height); /* or your preferred height */
+  height: var(--top-nav-height);
 }
 
 .TopNavBar-links {
@@ -34,21 +34,6 @@
 .MuiListItemText-primary {
   font-size: 1.4rem !important;
   padding: 0.6rem 1.4rem;
-}
-/* TODO: remove unused */
-.TopNavBar-drawer {
-  background-color: var(--background);
-  height: 100%;
-} 
-
-.custom {
-  background-color: var(--background);
-  width:100%;
-  height: 100%;
-}
-
-.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
-  background-color: var(--background);
 }
 
 @media (max-width: 899px) {
