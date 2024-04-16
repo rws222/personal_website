@@ -113,7 +113,7 @@ function Projects(props) {
           <div className='Education-mini-list'>
             <MiniListItem
               title="Presidential Scholarship"
-              date="May 2022"
+              date="Awarded May 2022"
               img={Lehigh_logo}
               img_alt="Lehigh Logo"
               description="Free tuition up to one year following undergraduate graduation. Awarded for earning above a 3.75 cumulative GPA."
