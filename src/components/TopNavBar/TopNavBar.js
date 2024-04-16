@@ -35,26 +35,6 @@ const TopNavBar = () => {
     setDrawerOpen(!drawerOpen);
   };
 
-  // const handleScroll = useCallback(() => {
-  //   if (window.scrollY > 500 && isMd) {
-  //     setVisible(true);
-  //   } else {
-  //     setVisible(false);
-  //   }
-  // }, [isMd]); // Include isMd in the dependency array
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleScroll);
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, [handleScroll]); // Include handleScroll in the dependency array
-
-  // useEffect(() => {
-  //   // Update visibility based on scrolling and isMd
-  //   handleScroll();
-  // }, [handleScroll]); // Re-run when handleScroll changes
-
   return (
     <div>
       <nav className={`TopNavBar ${visible ? 'visible' : ''}`}>

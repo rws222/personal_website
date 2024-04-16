@@ -27,6 +27,10 @@
   padding: 0 16px;
 }
 
+.TopNavBar-links > .Links-icons {
+  margin-left: 20px;
+}
+
 .menu-icon {
   color: var(--text-primary) !important;
 }

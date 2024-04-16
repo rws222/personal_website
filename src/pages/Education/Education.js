@@ -2,7 +2,6 @@ import './Education.css';
 import Page from "../../components/Page/Page.js";
 import ListItem from '../../components/ListItem/ListItem.js';
 import MiniListItem from '../../components/MiniListItem/MiniListItem.js';
-import Button from '../../mui_components/Button.js'
 import CourseworkTabs from '../../components/CourseworkTabs/CourseworkTabs';
 import Chip from '@mui/material/Chip';
 
@@ -42,10 +41,7 @@ function Projects(props) {
         gpa="3.85"
         description="Highest Honors"
       />
-      <p className="Education-description">At Lehigh, I was a student in the University's <span className='Education-IBE-highlight'>Integrated Business and Engineering (IBE) Honors Program</span>, a highly selective and rigoruos curriculum that awards each student an AACSB-accredited business degree in their major of choice (e.g. Finance). </p>
-      <div className='Education-buttons'>
-        <Button href='https://ibe.lehigh.edu' target="_blank">IBE homepage</Button>
-      </div>
+      <p className="Education-description">At Lehigh, I was a student in the University's <span className='Education-IBE-highlight'><a href='https://ibe.lehigh.edu' target="_blank" rel="noreferrer">Integrated Business and Engineering (IBE) Honors Program</a></span>, a highly selective and rigoruos curriculum that awards each student an AACSB-accredited business degree in their major of choice (e.g. Finance). </p>
       <h3>Coursework</h3>
       <p className='Education-coursework-subtitle'>(Hover over course names for more detail.)</p>
       <CourseworkTabs />

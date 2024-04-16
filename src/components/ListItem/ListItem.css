@@ -13,7 +13,8 @@
   color: var(--accent);
   margin: 0;
   font-style: italic;
-  font-weight: 800;
+  font-weight: 700;
+  font-family: "Source Serif 4", serif;
 }
 
 .ListItem-text-wrap {

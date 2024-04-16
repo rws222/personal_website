@@ -42,6 +42,7 @@
 
 .Education-skills-chip-wrapper > * {
   margin: 4px;
+  line-height: 1;
 }
 
 .skill-1 {
@@ -123,10 +124,11 @@
     max-width: none;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
   }
 
   .Education-lead-ach-item {
-    margin: 0 10px;
+    margin: 10px;
     max-width: 360px;
   }
 }

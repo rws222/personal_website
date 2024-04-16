@@ -76,6 +76,7 @@
   padding: 6px 0;
   color: var(--accent);
   width: fit-content;
+  font-weight: 600;
 }
 
 .Card-read-more:hover {
@@ -124,6 +125,19 @@
     min-height: 0;
     margin-bottom: 10px;
     height: 120px;
+  }
+
+  .Card-content {
+    justify-content: center;
+  }
+
+  .Card-title {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  .Card-date {
+    display: none;
   }
 
   .Card-content {

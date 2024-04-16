@@ -30,8 +30,8 @@ function Card(props) {
         </div>
         <div className='Card-content'>
           <div className='Card-content-main'>
-            <h3>{props.title}</h3>
-            <h4>{props.subtitle}</h4>
+            <h3 className='Card-title'>{props.title}</h3>
+            <h4 className='Card-date'>{props.subtitle}</h4>
             <p className='Card-description'>{props.description}</p>
           </div>
           <p className='Card-read-more'>Read more</p>
