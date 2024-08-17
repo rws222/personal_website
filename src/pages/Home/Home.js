@@ -37,7 +37,7 @@ function Home(props) {
                   Welcome
                 </p>
                 <p className="Home-intro">
-                  I'm Ryan, a recent Master's graduate of Lehigh University
+                  I'm Ryan, a Technology Consultant at EY
                 </p>
                 <Links justify='left' />
               </div>
